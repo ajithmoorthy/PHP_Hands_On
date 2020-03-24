@@ -1,0 +1,24 @@
+<?php
+$arr=array("ajith","moorthy","vinoth");
+print($arr[0]);
+$arr1=array(name=>"ajith",brother=>"moorthy",young=>"vinoth");
+print($arr1[name]);
+$arr2=array(
+        array(
+            name=>"ajith",
+            brother=>"moorthy",
+            young=>"vinoth"
+        ),
+        array(
+            name=>"arun",
+            brother=>"moorthy",
+            young=>"vinoth"
+        ),
+        array(
+            name=>"ajith",
+            brother=>"moorthy",
+            young=>"vinoth"
+        )
+        );
+
+print($arr2[1][name]);
